@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000/login`.
+Open `http://localhost:3000`.
 
 ## Routes
 
@@ -52,7 +52,6 @@ Build the debug or release APK from Android Studio.
 
 ## Notes for Evaluators
 
-- Uses the target folder's existing Next.js, React 19, TypeScript, Tailwind and ESLint package setup.
 - No backend is required; all visibility, role, moderation, analytics and engagement states are deterministic seeded data.
 - The UI prioritizes dense operational dashboards over a marketing landing page.
 - The app models multi-tenant visibility pools across all employees, verticals, corporate functions and locations.
