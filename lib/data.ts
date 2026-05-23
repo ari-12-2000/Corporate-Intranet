@@ -132,3 +132,21 @@ export const analyticsInsights = [
   { signal: "Digital teams over-index on forum answers", evidence: "2.4x answer rate vs company average", action: "Promote experts across cross-functional topics" },
   { signal: "Policy search is concentrated on onboarding", evidence: "37% of all handbook searches", action: "Add onboarding quick links to employee home" },
 ];
+
+export type GalleryItem = {
+  title: string;
+  category: "Events" | "Celebrations" | "Townhall" | "Culture";
+  location: string;
+  date: string;
+  gradient: string;
+  emoji: string;
+};
+
+export const gallery: GalleryItem[] = [
+  { title: "Mumbai Sports Day 2026", category: "Events", location: "Mumbai", date: "Apr 2026", gradient: "linear-gradient(135deg,#d8f3dc,#52b788)", emoji: "🏆" },
+  { title: "Q1 All-Hands Townhall", category: "Townhall", location: "Bengaluru", date: "Mar 2026", gradient: "linear-gradient(135deg,#caf0f8,#48cae4)", emoji: "🎤" },
+  { title: "New Joinee Welcome Batch 12", category: "Celebrations", location: "All", date: "May 2026", gradient: "linear-gradient(135deg,#ffe8cc,#f4a261)", emoji: "🎉" },
+  { title: "Diwali Moments — Office Across India", category: "Culture", location: "All", date: "Oct 2025", gradient: "linear-gradient(135deg,#fff3bf,#f9c74f)", emoji: "✨" },
+  { title: "Bengaluru Volunteering Week", category: "Events", location: "Bengaluru", date: "May 2026", gradient: "linear-gradient(135deg,#e9d8fd,#b197fc)", emoji: "🌱" },
+  { title: "Annual Leadership Offsite", category: "Culture", location: "Goa", date: "Feb 2026", gradient: "linear-gradient(135deg,#ffd6e7,#ff85a1)", emoji: "🌊" },
+];
