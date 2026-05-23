@@ -1,0 +1,38 @@
+Prompt 1:
+Build a dynamic and interactive corporate intranet for a web application with a limited mobile APK experience. Include employee views, HR/admin command center, seeded data, visibility controls, recognition, announcements, business updates, leadership outcomes, project wins, colleague discovery, knowledge hub, forums, moderation and analytics.
+
+AI response summary:
+Planned a fresh project with a static role-based app, seeded data, public hosting readiness and a Capacitor APK packaging plan.
+
+Correction prompt:
+Use the packages of D:\Projects\corporate-intranet-assessment-AritraKumarBara.
+
+AI response summary:
+Implemented the intranet inside the requested Next.js TypeScript project, preserving its existing package.json, package-lock.json and node_modules package setup.
+
+
+Correction prompt:
+1) use lucide-icon or any other other icon library inside experience component
+2) Add subtle interactive feedback across the app:
+eg: hover lift on panels/cards/buttons, subtle color changes on buttons, nav, filters, mobile tabs
+
+AI response summary:
+
+Fixed.
+
+Changes made:
+
+Renamed the calendar graph structure so bars and labels no longer overlap/cramp on narrower panels.
+Added responsive sizing and horizontal overflow only when needed.
+Added subtle interactive feedback across the app:
+hover lift on panels/cards/buttons
+subtle color changes on buttons, nav, filters, mobile tabs
+focus rings on inputs/buttons/links
+bar lift on calendar graph hover
+Fixed appreciation behavior:
+each recognition post can be appreciated only once
+button changes to Appreciated
+button gets a completed visual state
+mobile kudos also becomes one-time with a completed state
+count no longer keeps increasing endlessly
+

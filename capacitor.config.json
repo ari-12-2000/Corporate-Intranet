@@ -1,0 +1,9 @@
+{
+  "appId": "com.demo.orgsphere",
+  "appName": "OrgSphere",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
